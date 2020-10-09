@@ -1,0 +1,17 @@
+import turtle               
+wn = turtle.Screen()        
+alex = turtle.Turtle()      
+r = 100
+n = 60
+v = 70
+alex.forward(r)           
+alex.right(n)
+alex.forward(r)
+alex.left(n)
+alex.backward(v)
+alex.right(n)
+alex.backward(n)
+alex.left(r)
+alex.backward(v)
+alex.right(n)
+alex.backward(v)
